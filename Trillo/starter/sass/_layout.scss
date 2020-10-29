@@ -11,6 +11,12 @@
     height: 7rem;
     background-color: #fff;
     border-bottom:var(--color-grey-light-2);
+
+    font-size: 1.4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
@@ -18,15 +24,22 @@
 }
 
 .sidebar {
-    background-color: var(--color-grey-dark-3);
+    background-color: var(--color-grey-dark-1);
 
     flex: 0 0 18%; // growth shrink size
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .hotel-view {
     background-color: #fff;
+
     //test
     background-color:orangered;
+    height: 80rem;
 
     flex: 1; //it will grow as much as it can in the remaining layout
 }
